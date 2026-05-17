@@ -1,10 +1,14 @@
 # Hi, I'm Latika Dekate 👋
+
  
 🎓 **MS Data Science @ Arizona State University** (Class of 2026)
-📍 Tempe, Arizona
-💼 Seeking **Data Science · ML Engineering · Software Engineering** roles | OPT Eligible (STEM — 3 years)
+
+
+
+💼 Seeking **Data Science · ML Engineering · Software Engineering** roles | OPT Eligible 
+
  
-I build things end-to-end — from raw data pipelines and relational databases to trained ML models and interactive dashboards. My background spans classical machine learning, deep learning, computer vision, NLP, and time series, with a software engineering foundation in Python, Docker, and cloud infrastructure.
+I build things end-to-end, from raw data pipelines and relational databases to trained ML models and interactive dashboards. My background spans classical machine learning, deep learning, computer vision, NLP, and time series, with a software engineering foundation in Python, Docker, and cloud infrastructure.
  
 ---
  
