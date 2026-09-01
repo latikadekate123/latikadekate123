@@ -1,95 +1,149 @@
-# Hi, I'm Latika Dekate 👋
+# Hi, I'm Latika 👋
 
- 
-🎓 **MS Data Science @ Arizona State University** (Class of 2026)
+I'm an M.S. Data Science student at Arizona State University graduating
+December 2026, with an engineering background and a strong interest in
+Applied AI, Machine Learning, and software systems.
 
+I like building systems end-to-end — but I'm especially interested in
+understanding what happens when they don't behave as expected.
 
+My recent work spans AI reliability, RAG/GraphRAG, computer vision,
+real-time collaborative systems, data engineering, and applied ML.
 
-💼 Seeking **Data Science · ML Engineering · Software Engineering** roles | OPT Eligible 
+Currently, I work with ASU's DaRL Lab on Sim2Real traffic-signal-control
+research, tracing experimental behavior across agents, environments,
+and execution logic.
 
- 
-I build things end-to-end, from raw data pipelines and relational databases to trained ML models and interactive dashboards. My background spans classical machine learning, deep learning, computer vision, NLP, and time series, with a software engineering foundation in Python, Docker, and cloud infrastructure.
- 
 ---
- 
-## 🛠️ Tech Stack
- 
+
+## 🔨 My Top Works
+
+### 🛡️ Stealthy Data Poisoning in RAG Systems
+
+Studied how difficult-to-detect document poisoning affects retrieval-augmented
+generation across a 5,000-document corpus and 1,000 benchmark queries.
+
+- Evaluated 5 poisoning strategies
+- Compared 25 detector configurations
+- Measured embedding-based detection at 0.527 mean AUC
+- Tested retrieval safeguards against adversarial document injection
+
+`Python` `LangChain` `ChromaDB` `Llama 3.1` `RAG` `AI Security`
+
+---
+
+### 🧠 AstraNode — GraphRAG Research Intelligence
+
+Built a GraphRAG system connecting 600+ NASA research papers through
+entities, relationships, and source evidence.
+
+- Neo4j knowledge graph + semantic retrieval
+- Multi-document context construction
+- Reduced research discovery time by 40%
+- NASA Space Apps Arizona Regional Winner & Global Nominee
+
+`Python` `Neo4j` `LangChain` `GraphRAG` `LLMs`
+
+---
+
+### 🤝 Smart Team Manager
+
+Built a real-time collaborative platform using WebSockets and CRDT-based
+state synchronization.
+
+- Go-based backend
+- Yjs CRDT conflict resolution
+- Supported 50+ concurrent users with zero data conflicts
+- Containerized with Docker for portable deployment
+
+`Go` `WebSockets` `Yjs` `CRDTs` `Docker`
+
+---
+
+### 👁️ Smart-Sighted SLAM
+
+Developed a dynamic-object-aware monocular SLAM pipeline using object
+detection and optical flow.
+
+- Evaluated four masking strategies
+- Reduced trajectory error by 80%+ over baseline
+- Best Sim(3) RMSE: 2.60 cm
+- RAFT masking increased map-point density by 36.7%
+
+`C++` `ORB-SLAM3` `YOLO` `RAFT` `OpenCV` `PyTorch`
+
+---
+
+### 🧬 ViT-GNN Breast Cancer Classification
+
+Implemented and benchmarked three deep-learning architectures for
+histopathology image classification.
+
+- Vision Transformer
+- Graph Neural Network
+- Hybrid ViT-GNN architecture
+- Combined patch-level attention with relational graph structure
+
+`Python` `PyTorch` `ViT` `GNN` `Deep Learning`
+
+---
+
+### 📊 CityPulse — Smart Transit Analytics
+
+Built a PostgreSQL-based analytics system over NYC MTA data for studying
+route reliability, service anomalies, and congestion patterns.
+
+`Python` `PostgreSQL` `SQL` `ETL` `Streamlit`
+
+---
+
+## 🛠 Technical Toolkit
+
 **Languages**
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-121011?style=flat&logo=gnu-bash&logoColor=white)
- 
-**Machine Learning & AI**
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white)
- 
-**Domains**
-![Computer Vision](https://img.shields.io/badge/Computer%20Vision-blueviolet?style=flat)
-![NLP](https://img.shields.io/badge/NLP-ff69b4?style=flat)
-![Time Series](https://img.shields.io/badge/Time%20Series-orange?style=flat)
-![Reinforcement Learning](https://img.shields.io/badge/Reinforcement%20Learning-green?style=flat)
- 
-**Data Engineering & Databases**
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
- 
-**Visualization & Apps**
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat&logo=tableau&logoColor=white)
-![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat&logo=plotly&logoColor=white)
- 
-**Software Engineering & DevOps**
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
- 
-**Web & Scraping**
-![BeautifulSoup](https://img.shields.io/badge/BeautifulSoup-59666C?style=flat)
-![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat&logo=selenium&logoColor=white)
- 
+`Python` `Go` `SQL` `C/C++` `Java` `JavaScript` `Bash`
+
+**AI & Machine Learning**
+`PyTorch` `TensorFlow` `Scikit-learn` `LLMs` `RAG`
+`GraphRAG` `NLP` `Computer Vision`
+
+**Data & Retrieval**
+`PostgreSQL` `Neo4j` `ChromaDB` `Redis` `pandas`
+`NumPy` `ETL` `Semantic Search`
+
+**Software & Systems**
+`REST APIs` `Flask` `React` `WebSockets` `Docker`
+`Linux` `Git/GitHub`
+
+**AI Development**
+`Claude Code` `OpenAI Codex`
+
+I use AI-assisted development tools for prototyping, debugging, refactoring,
+and experimentation while reviewing and validating changes before integration.
+
 ---
- 
-## 🚀 Featured Projects
- 
-### 🚇 [CityPulse — Smart Transit Analytics System](https://github.com/latikadekate123/City-Pulse-Smart-Transit-System-using-SQL)
-> End-to-end data engineering + analytics platform for real-time NYC MTA transit intelligence
- 
-Built a full-stack solution ingesting **live MTA API data** into a **10-table normalized PostgreSQL schema** via an automated ETL pipeline. Surfaced delay patterns across 50+ stations through an **interactive Streamlit + Plotly dashboard** and Tableau reports.
- 
-`Python` `PostgreSQL` `Streamlit` `Plotly` `Tableau` `REST API` `ETL` `SQL`
- 
+
+## 🔬 Research
+
+**Research Intern — ASU DaRL Lab**
+
+Working on Sim2Real traffic-signal-control benchmarking, with a focus on
+experimental behavior, implementation analysis, validation, and reproducibility.
+
+**Sim2Signal: Sim-to-Real Benchmarks for Traffic Signal Control**
+— Submitted to AAAI 2027 (under review), July 2026.
+
 ---
- 
-### 👁️ [Age & Gender Detection — Computer Vision](https://github.com/latikadekate123/Age_and_Gender_Detection)
-> Real-time facial attribute detection using deep learning CNNs and OpenCV
- 
-Built a real-time CV application detecting age range and gender from video/image input using pre-trained CNN models. Demonstrates applied deep learning for multi-task classification.
- 
-`Python` `OpenCV` `TensorFlow` `CNN` `Deep Learning` `Computer Vision`
- 
+
+## 🏆 Recognition
+
+**NASA Space Apps Challenge**
+Arizona Regional Winner & Global Nominee — AstraNode
+
 ---
- 
-## 📈 What I'm Working On
- 
-- 🔨 Building a deployed ML pipeline project (end-to-end: EDA → model → Streamlit app → cloud deploy)
-- 📚 Deepening knowledge in LLMs and Retrieval-Augmented Generation (RAG)
-- 🏆 Participating in Kaggle competitions
----
- 
-## 📊 GitHub Stats
- 
-![Latika's GitHub Stats](https://github-readme-stats.vercel.app/api?username=latikadekate123&show_icons=true&theme=default&hide_border=true&count_private=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=latikadekate123&layout=compact&hide_border=true)
- 
----
- 
-## 📫 Let's Connect
- 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/latika-dekate/)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/latikadekate123)
- 
-💼 Open to **Data Science · ML Engineering · Data Analyst** internship and full-time opportunities.
-OPT eligible — STEM OPT (3 years work authorization, no cost to employer).
+
+## 📫 Connect
+
+I'm interested in early-career opportunities across **Applied AI/ML,
+Data Science, and AI/ML Engineering**.
+
+[LinkedIn](https://www.linkedin.com/in/latika-dekate) · [Portfolio](https://latikadekate123.github.io/)
